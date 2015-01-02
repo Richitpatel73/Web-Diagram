@@ -1,6 +1,7 @@
 package com.example.webdiagram;
 
 import android.support.v7.app.ActionBarActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -27,6 +28,8 @@ public class MainActivity extends ActionBarActivity {
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
 		if (id == R.id.action_settings) {
+			Intent i = new Intent(getBaseContext(),AboutApplication.class);
+			startActivity(i);
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
