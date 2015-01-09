@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/verticalscrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:id="@+id/llitems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/customer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Customer"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_customerId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:gravity="center_horizontal"
+                android:hint="Enter Customer ID here" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_customerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:hint="Enter Customer Name here" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_customerProject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:hint="Enter Customer Project here" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_customerDiagramStage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:hint="Enter Diagram Stage here" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_customerDiscussionDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:hint="Enter Discussion Date(yyyy-mm-dd) here"
+                android:inputType="date" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_customerContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:hint="Enter Customer Contact here" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_ContactTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:hint="Enter Contact Title here" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_ContactRep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:hint="Enter Representative Name here" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_ContactSC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:hint="Enter SC Name here" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_ContactDiscussion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:hint="Enter Discussion here" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_OppId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:hint="Enter Opp ID here" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/situation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Situation"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_appName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:hint="Enter Application Name here" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_appOwner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:hint="Enter Application OwnerName here" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_leadArchitect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:hint="Enter Lead Architect Name here" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_project"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:hint="Enter Project Name here" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_problem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:hint="Enter Problem Details here" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_middleWare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:hint="Enter Middleware Name here" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_database"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:hint="Enter Database Name here" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_hwos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:hint="Enter Hardware/OS details here" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_solution"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:hint="Enter Solution here" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_ODA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:hint="Enter ODA here" >
+            </EditText>
+
+            <LinearLayout
+                android:id="@+id/llbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="center_horizontal" >
+
+                <ImageButton
+                    android:id="@+id/BTN_Submit"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/btn_default_small"
+                    android:src="@drawable/btn_submit" />
+
+                <ImageButton
+                    android:id="@+id/BTN_clear"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:background="@android:drawable/btn_default_small"
+                    android:src="@drawable/btn_clear" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

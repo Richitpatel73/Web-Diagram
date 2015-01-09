@@ -4,5 +4,11 @@
     <string name="app_name">Web Diagram</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">About Application</string>
+     <string name="about_app">Web Diagram is an innovative way to capture the customer requirements \n into a pictorial representation\n through Microsoft Visio.\n\n
+         					  This is the traditional way,but this application allows us to capture the requirements from anywhere and represent it in a pictorial representation.\n\n
+         					  This is an oracle internal applictaion.\n\n
+         					  @2015 Oracle Inc.\n
+         					  All rights reserved.
+     </string>
 
 </resources>
